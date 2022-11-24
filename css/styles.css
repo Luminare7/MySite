@@ -1,11 +1,12 @@
-body{
+body {
     margin: 0;
     text-align: center;
     font-family: 'Handlee', cursive;
     font-size: 200%;
+    #color: #D61C4E;
 }
 
-h1{
+h1 {
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: 'Chakra Petch', sans-serif;
@@ -13,72 +14,156 @@ h1{
     #line-height: 2;
 }
 
-h2{
+h2 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 2.5rem;
     color: #293462;
     #font-weight: normal;
 }
 
-h3{
+h3 {
     font-family: 'Sawarabi Gothic', sans-serif;
     color: #293462;
     font-weight: normal;
 }
 
-p{
-  font-family: 'Sawarabi Gothic', sans-serif;
-}
-hr{
-    border: 5px solid #D61C4E;
-    border-radius: 5px;
-    width: 70%;
+p {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 75%;
+    line-height: 2;
 }
 
-div{
+hr {
+    border: 10px #D61C4E;
+    #border-radius: 5px;
+    width: 60%;
+    border-style: none none dotted;
+}
+
+div {
     background-color: #1CD6CE;
 }
-a{
+
+a {
     color: #FEDB39;
+    margin: 10px 15px;
+    text-decoration: none;
 }
 
-.top-container{
-    background-color: #1CD6CE;
+a:hover{
+    color: #4B91F7;
+}
+
+.top-container {
+    background-color: #D61C4E;
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
+    padding: 100px 0;
+}
+
+.bottom-container {
+    background-color: #D61C4E;
+    line-height: 1;
+    padding: 20px 0;
+}
+
+.contact-me {
 
 }
 
-.bottom-container{
-
-}
-
-.top-cloud{
+.top-cloud {
     position: absolute;
     top: 50px;
     right: 300px;
 }
 
-.mountain{
+.mountain {
     position: relative;
     top: 12px;
 
 }
 
-.bottom-cloud{
+.bottom-cloud {
     position: absolute;
     bottom: 350px;
     left: 300px;
 }
 
-.skill-img{
-    border-radius: 50%;
+.skill-name {
+    padding-top: 50px;
 }
 
-#me-img{
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    #line-height: 2;
+}
+
+.code-img {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chili-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.code-skill-description {
+    clear: left;
+}
+
+.chili-skill-description {
+    clear: right;
+}
+
+.btn {
+  background: #293462;
+  background-image: -webkit-linear-gradient(top, #293462, #D61C4E);
+  background-image: -moz-linear-gradient(top, #293462, #D61C4E);
+  background-image: -ms-linear-gradient(top, #293462, #D61C4E);
+  background-image: -o-linear-gradient(top, #293462, #D61C4E);
+  background-image: linear-gradient(to bottom, #293462, #D61C4E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #FEDB39;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+    color: #FEDB39;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.copyright{
+    color: #293462;
+    font-size: 0.75rem;
+    padding: 20px;
+}
+
+#me-img {
     margin-top: 10px;
     width: 300px;
 }
