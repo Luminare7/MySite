@@ -2,26 +2,35 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Handlee', cursive;
+    font-size: 200%;
 }
 
 h1{
-    margin-top: 0;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
     font-family: 'Chakra Petch', sans-serif;
+    color: #293462;
+    #line-height: 2;
 }
 
 h2{
     font-family: 'Chakra Petch', sans-serif;
+    font-size: 2.5rem;
+    color: #293462;
+    #font-weight: normal;
 }
 
 h3{
     font-family: 'Sawarabi Gothic', sans-serif;
+    color: #293462;
+    font-weight: normal;
 }
 
 p{
   font-family: 'Sawarabi Gothic', sans-serif;
 }
 hr{
-    border: 5px solid #293462;
+    border: 5px solid #D61C4E;
     border-radius: 5px;
     width: 70%;
 }
@@ -29,9 +38,12 @@ hr{
 div{
     background-color: #1CD6CE;
 }
+a{
+    color: #FEDB39;
+}
 
 .top-container{
-    background-color: #D61C4E;
+    background-color: #1CD6CE;
     position: relative;
     padding-top: 100px;
 }
@@ -52,7 +64,7 @@ div{
 
 .mountain{
     position: relative;
-    top: 6px;
+    top: 12px;
 
 }
 
@@ -61,6 +73,11 @@ div{
     bottom: 350px;
     left: 300px;
 }
+
+.skill-img{
+    border-radius: 50%;
+}
+
 #me-img{
     margin-top: 10px;
     width: 300px;
