@@ -2,58 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amos Bocelli</title>
     <link rel='stylesheet' href='css/styles.css'>
     <link rel="icon" href="favicon_ab.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Handlee&family=Sawarabi+Gothic&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Amos</h1>
-    <h2>I am a programmer</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain" src="images/mountain.png" alt="mountain-img">
-</div>
-<div class="middle-container">
-    <div class="profile">
-        <img id='me-img' src="images/Amos.png" alt="amos-img">
-        <h2>Hello.</h2>
-        <p class="intro">I started coding during the Pandemic and had fun doing so ever since.</p>
-    </div>
-    <hr>
-    <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-            <img class="code-img" src="images/computer.png" alt="computer-img">
-            <h3 class="skill-name">Python</h3>
-            <p class="code-skill-description">I learned python by following Angela Yu's course and deepend my skills for
-                DataScience through a course provided by the EPFL Extension School.</p>
+    <div class="container">
+        <div class="profile-section">
+            <img class="profile-image" src="images/Amos.png" alt="Amos Bocelli">
+            <h1 class="name">Amos Bocelli</h1>
+            <p class="tagline">Developer | Tech Enthusiast | Problem Solver</p>
+            
+            <div class="bio">
+                <p>Aerospace engineer, pianist; obsessed with allowing youth to access the best tools out there to learn and make their dreams come true. Occasional VC.</p>
+            </div>
+            
+            <div class="articles-link">
+                <a href="articles.html" class="articles-btn">
+                    <i class="fas fa-newspaper"></i>
+                    <span>Read My Articles</span>
+                </a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/amos-bocelli-bab86411a" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/amosbocelli" target="_blank" rel="noopener noreferrer" class="social-link twitter">
+                    <i class="fab fa-x-twitter"></i>
+                    <span>X (Twitter)</span>
+                </a>
+            </div>
         </div>
-        <div class="skill-row">
-            <img class="chili-img" src="images/chillies.png" alt="chili-img">
-            <h3 class="skill-name">HTML</h3>
-            <p class="chili-skill-description">I enjoy building simple websites to share something with my friends.</p>
-        </div>
+        
+        <footer>
+            <p>&copy; <span id="year"></span> Amos Bocelli. All rights reserved.</p>
+        </footer>
     </div>
-    <hr>
-    <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>I will be more than happy to help</h3>
-        <p>Reach out to me at any of these links.</p>
-        <a class="btn" href="mailto:amos@amosbocelli.com">CONTACT ME</a>
-    </div>
-</div>
-
-
-<div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/amos-bocelli-bab86411a">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/amosbocelli">Twitter</a>
-    <a class="footer-link" href="https://github.com/Luminare7">GitHub</a>
-    <p class="copyright">© 2022 Amos Bocelli.</p>
-</div>
+    
+    <script>
+        // Update year automatically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
