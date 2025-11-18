@@ -2,4 +2,4 @@
 
 A clean, modern, and responsive personal website.
 
-**Live Site**: [https://amosbocelli.com](https://amosbocelli.com)
+**Live Site**: [Amos Home](https://luminare7.github.io/MySite/)
