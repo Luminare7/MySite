@@ -78,7 +78,7 @@ body {
 .bio {
     max-width: 600px;
     margin: 0 auto 40px;
-    text-align: left;
+    text-align: center;
     padding: 0 20px;
 }
 
@@ -87,36 +87,6 @@ body {
     color: #555;
     line-height: 1.8;
     margin-bottom: 15px;
-}
-
-/* Articles Link */
-.articles-link {
-    margin-bottom: 30px;
-}
-
-.articles-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    background: #667eea;
-    color: white;
-}
-
-.articles-btn:hover {
-    background: #5568d3;
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
-}
-
-.articles-btn i {
-    font-size: 1.3rem;
 }
 
 /* Social Links */
